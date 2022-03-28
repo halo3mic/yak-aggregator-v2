@@ -1,0 +1,60 @@
+pragma solidity >=0.8.0;
+
+
+library ERC20s {
+
+    address constant DAI = 0xbA7dEebBFC5fA1100Fb055a87773e1E99Cd3507a;
+    address constant WAVAX = 0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7;
+    address constant PNG = 0x60781C2586D68229fde47564546784ab3fACA982;
+    address constant USDT = 0xde3A24028580884448a5397872046a019649b084;
+    address constant ETH = 0xf20d962a6c8f70c731bd838a3a388D7d48fA6e15;
+    address constant TUSD = 0x1C20E891Bab6b1727d14Da358FAe2984Ed9B59EB;
+    address constant FRAX = 0xDC42728B0eA910349ed3c6e1c9Dc06b5FB591f98;
+    address constant SUSHI = 0x39cf1BD5f15fb22eC3D9Ff86b0727aFc203427cc;
+    // address constant SUSHIe = 0x37b608519f91f70f2eeb0e5ed9af4061722e4f76;
+    address constant UNI = 0xf39f9671906d8630812f9d9863bBEf5D523c84Ab;
+    // address constant UNIe = 0x8ebaf22b6f053dffeaf46f4dd9efa95d89ba8580;
+    address constant BUSD = 0xaEb044650278731Ef3DC244692AB9F64C78FfaEA;
+    // address constant BUSDe = 0x19860ccb0a68fd4213ab9d8266f7bbf05a8dde98;
+    address constant ZDAI = 0x12f108E6138d4A9c58511e042399cF8f90D5673f;
+    address constant WBTC = 0x408D4cD0ADb7ceBd1F1A1C33A0Ba2098E1295bAB;
+    address constant ZBTC = 0xc4f4Ff34A2e2cF5e4c892476BB2D056871125452;
+    address constant ZUSDT = 0x650CECaFE61f3f65Edd21eFacCa18Cc905EeF0B7;
+    address constant ZETH = 0xf6F3EEa905ac1da6F6DD37d06810C6Fcb0EF5183;
+    address constant ZERO = 0x008E26068B3EB40B443d3Ea88c1fF99B789c10F7;
+    address constant JOE = 0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd;
+    address constant PEFI = 0xe896CDeaAC9615145c0cA09C8Cd5C25bced6384c;
+    address constant SNOB = 0xC38f41A296A4493Ff429F1238e030924A1542e50;
+    address constant LYD = 0x4C9B4E1AC6F24CdE3660D5E4Ef1eBF77C710C084;
+    address constant ELK = 0xE1C8f3d529BEa8E3fA1FAC5B416335a2f998EE1C;
+    address constant BAG = 0xa1144a6A1304bd9cbb16c800F7a867508726566E;
+    address constant CNR = 0x8D88e48465F30Acfb8daC0b3E35c9D6D7d36abaf;
+    address constant DAIe = 0xd586E7F844cEa2F87f50152665BCbc2C279D8d70;
+    address constant USDTe = 0xc7198437980c041c805A1EDcbA50c1Ce5db95118;
+    address constant USDCe = 0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664;
+    address constant LINKe = 0x5947BB275c521040051D82396192181b413227A3;
+    address constant WETHe = 0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB;
+    address constant WBTCe = 0x50b7545627a5162F82A992c33b87aDc75187B218;
+    address constant renBTC = 0xDBf31dF14B66535aF65AaC99C32e9eA844e14501;
+    address constant LINK = 0xB3fe5374F67D7a22886A0eE082b2E2f9d2651651;
+    address constant TSD = 0x4fbf0429599460D327BD5F55625E30E4fC066095;
+    address constant NUSD = 0xCFc37A6AB183dd4aED08C204D1c2773c0b1BDf46;
+    address constant YAK = 0x59414b3089ce2AF0010e7523Dea7E2b35d776ec7;
+    address constant mYAK = 0xdDAaAD7366B455AfF8E7c82940C43CEB5829B604;
+    address constant MIM = 0x130966628846BFd36ff31a822705796e8cb8C18D;
+    address constant QI = 0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5;
+    address constant SPELL = 0xCE1bFFBD5374Dac86a2893119683F4911a2F7814;
+    address constant USDC = 0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E;
+    address constant FRAXc = 0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64;
+    address constant AVAI = 0x346A59146b9b4a77100D369a3d18E8007A9F46a6;
+    address constant DYP = 0x961C8c0B1aaD0c0b10a51FeF6a867E3091BCef17;
+    // address constant XAVA = 0xd1c3f94de7e5b45fa4edbba472491a9f4b166fc4;
+    address constant xJOE = 0x57319d41F71E81F3c65F2a47CA4e001EbAFd4F33;
+    address constant AUSD = 0x783C08b5F26E3daf8C4681F3bf49844e425b6393;
+    address constant AVE = 0x78ea17559B3D2CF85a7F9C2C704eda119Db5E6dE;
+    address constant MONEY = 0x0f577433Bf59560Ef2a79c124E9Ff99fCa258948;
+    address constant SAVAX = 0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE;
+    address constant USDt = 0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7;
+    address constant WOO = 0xaBC9547B534519fF73921b1FBA6E672b5f58D083;
+
+}
